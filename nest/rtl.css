@@ -1,0 +1,35 @@
+
+body { direction: rtl; unicode-bidi: embed; }
+
+.site-logo { text-align: right; }
+.site-title { text-align: right; }
+.site-description { text-align: right; }
+
+#footer .copyright { float: right; }
+#footer .poweredby { float: left; }
+
+.post-title { text-align: right; border-left: none; border-right: 5px solid #ccc; }
+.post-meta { text-align: right; border-left: none; border-right: 5px solid #ddd; }
+
+.post-meta .meta-pri { float: right; }
+.post-meta .meta-sec { float: left; }
+
+.post-footer { margin: 0 15px 15px 15px; background-position: 100% -100px; padding-left: 0; padding-right: 24px; }
+
+.post-meta .meta-sec > span.comments_popup_link { background-position: 100% -40px; padding-left: 0; padding-right: 24px; }
+.post-meta .meta-sec > span.comments_link { background-position: 100% -60px; padding-left: 0; padding-right: 24px; }
+
+#sidebar li.widget-container ul li { padding: 0 20px 0 13px; background-position: 100% 9px }
+
+.commentlist li.comment .comment-body .fn { right: 40px; left: auto; }
+.commentlist li.comment .comment-body .commentmetadata { right: 40px; left: auto; }
+.commentlist li.comment .comment-body .reply,
+.commentlist li.trackback .comment-body .reply,
+.commentlist li.pingback .comment-body .reply
+{ left: 0; right: auto; }
+.commentlist li.comment .children > .comment { margin-right: 25px; }
+
+.post-author-info .author-description { right: 150px; left: auto; }
+
+blockquote { border-left: none; border-right: 5px solid #ddd; }
+

@@ -1,4 +1,3 @@
-<?php global $nest_options; ?>
 
 			<div class="clearfix"></div>
 
@@ -8,9 +7,9 @@
 
 	<div id="footer">
 		<footer id="footer-inner" class="inner">
-			<span class="copyright"><?php if( ! empty( $nest_options['code_siteinfo'] ) ) : echo html_entity_decode( $nest_options['code_siteinfo'] ); else : ?>&copy; <a href="<?php echo home_url( '/' ); ?>"><?php bloginfo( 'name' ); ?></a>.<?php endif ?></span>
+			<span class="copyright"><?php $nlt_code_siteinfo = nlt_opt('code_siteinfo'); if( ! empty( $nlt_code_siteinfo ) ) : echo html_entity_decode( $nlt_code_siteinfo ); else : ?>&copy; <a href="<?php echo home_url( '/' ); ?>"><?php bloginfo( 'name' ); ?></a>.<?php endif; ?></span>
 			<span class="poweredby">
-				<?php _e( 'Proudly Powered by <a href="http://wordpress.org/">WordPress</a> | Nest Theme by <a href="http://www.ychong.com/" title="designed by YChong">YChong</a>', 'nest' ); ?>
+				<?php _e( 'Proudly Powered by <a href="http://wordpress.org/" target="_blank">WordPress</a> | Nest Theme by <a href="http://www.ychong.com/" title="Neverland" target="_blank">Neverland</a>', 'nlt' ); ?>
 			</span>
 			<div class="clearfix"></div>
 		</footer><!-- #footer-inner -->

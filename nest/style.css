@@ -1,14 +1,15 @@
 /*
-Theme Name:Nest
-Theme URI:http://www.ychong.com/works/wptheme-nest/
-Description:A simple WordPress theme, valid HTML 5 and CSS 3, theme options and widgets supported. Custom the site logo, header navigation menu, Twitter and Facebook links. You can choose where your sidebar will be: left, right, or even hide the sidebar (it will display a wide body column). Multi-level navigation menu with selective effects and random posts widget supported. The "About Author" information box (inspired by TwentyTen) and "BY-NC-SA License Notice" are available in single post page. Supports Right to Left Languages and many plugins.
-Tags:dark, gray, white, light, theme-options, custom-menu, left-sidebar, right-sidebar, one-column, two-columns, post-formats, full-width-template, rtl-language-support, fixed-width, sticky-post
-Text Domain: concerto
-Version:1.1.7
-Author:YChong
-Author URI:http://www.ychong.com/
-License:GNU General Public License, version 2
-License URI:http://www.gnu.org/licenses/gpl-2.0.html
+Theme Name: Nest
+Theme URI: http://www.ychong.com/works/wptheme-nest/
+Version: 1.1.8
+Author: YChong
+Author URI: http://www.ychong.com/
+Description: A simple WordPress theme, valid HTML 5 and CSS 3, theme options and widgets supported. Custom the site logo, header navigation menu, Twitter and Facebook links. You can choose where your sidebar will be: left, right, or even hide the sidebar (it will display a wide body column). Multi-level navigation menu with selective effects and random posts widget supported. The "About Author" information box (inspired by TwentyTen) and "BY-NC-SA License Notice" are available in single post page. Supports Right to Left Languages and many plugins.
+Tags: gray, white, light, theme-options, custom-menu, left-sidebar, right-sidebar, one-column, two-columns, post-formats, full-width-template, rtl-language-support, fixed-width, sticky-post
+Text Domain: nlt
+
+License: GNU General Public License, version 2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -28,9 +29,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 0; padding: 0; border: 0;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -235,14 +234,14 @@ a:hover, a:focus, a:active { text-decoration: none; color: #666; }
 
 #nav-sns { text-align: right; }
 #nav-sns .btn-sns { display: inline-block; height: 18px; line-height: 18px; padding: 0 20px 0 25px; margin: 7px 0; text-align: left; }
-#nav-sns .btn-sns-rss { background: url('images/icon-sns-feed.png') no-repeat 0 0 transparent; }
-#nav-sns .btn-sns-rss:hover { background: url('images/icon-sns-feed.png') no-repeat 0 -18px transparent; }
-#nav-sns .btn-twitter { background: url('images/icon-sns-twitter.png') no-repeat 0 0 transparent; }
-#nav-sns .btn-twitter:hover { background: url('images/icon-sns-twitter.png') no-repeat 0 -18px transparent; }
-#nav-sns .btn-facebook { background: url('images/icon-sns-facebook.png') no-repeat 0 0 transparent; }
-#nav-sns .btn-facebook:hover { background: url('images/icon-sns-facebook.png') no-repeat 0 -18px transparent; }
-#nav-sns .btn-sina { background: url('images/icon-sns-sina.png') no-repeat 0 0 transparent; }
-#nav-sns .btn-sina:hover { background: url('images/icon-sns-sina.png') no-repeat 0 -18px transparent; }
+#nav-sns .btn-sns-rs { background: url('images/icon-sns-feed.png') no-repeat 0 0 transparent; }
+#nav-sns .btn-sns-rs:hover { background: url('images/icon-sns-feed.png') no-repeat 0 -18px transparent; }
+#nav-sns .btn-sns-fb { background: url('images/icon-sns-facebook.png') no-repeat 0 0 transparent; }
+#nav-sns .btn-sns-fb:hover { background: url('images/icon-sns-facebook.png') no-repeat 0 -18px transparent; }
+#nav-sns .btn-sns-tw { background: url('images/icon-sns-twitter.png') no-repeat 0 0 transparent; }
+#nav-sns .btn-sns-tw:hover { background: url('images/icon-sns-twitter.png') no-repeat 0 -18px transparent; }
+#nav-sns .btn-sns-wb { background: url('images/icon-sns-sina.png') no-repeat 0 0 transparent; }
+#nav-sns .btn-sns-wb:hover { background: url('images/icon-sns-sina.png') no-repeat 0 -18px transparent; }
 
 /* ===== Comments ===== */
 
@@ -312,12 +311,12 @@ textarea {
 	padding: 2px;
 }
 
-.nest-box { padding: 0 !important; }
-.nest-box li { padding: 0; list-style: none; clear: both; }
-.nest-box-title, h3.nest-box-title { display: block; padding: 0 10px; line-height: 26px; font-size: 12px; font-weight: bold; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #eee; }
-.nest-box li ul li { float: left; clear: none; list-style: none; padding: 0 10px; width: 145px; line-height: 26px; }
+.nlt-box { padding: 0 !important; }
+.nlt-box li { padding: 0; list-style: none; clear: both; }
+.nlt-box-title, h3.nlt-box-title { display: block; padding: 0 10px; line-height: 26px; font-size: 12px; font-weight: bold; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #eee; }
+.nlt-box li ul li { float: left; clear: none; list-style: none; padding: 0 10px; width: 145px; line-height: 26px; }
 
-.nest-notice-notfound { width: 480px; height: 100px; margin: 100px auto; padding-left: 130px; line-height: 50px; background: transparent url('images/icon-notfound.png') left center no-repeat; font-size: 18px; }
+.nlt-notice-notfound { width: 480px; height: 100px; margin: 100px auto; padding-left: 130px; line-height: 50px; background: transparent url('images/icon-notfound.png') left center no-repeat; font-size: 18px; }
 
 /* ===== WordPress Elements (required) ===== */
 

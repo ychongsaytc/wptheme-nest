@@ -1,74 +1,81 @@
 
-1.1.7
+# Nest theme CHANGELOG
 
-NEW         Post formats supported basicallly.
-NEW         More complete HTML 5 features.
+## version 1.1.8
 
-1.1.6
+- NEW         Code structure optimization.
 
-NEW         Multi sidebar position supported more types of pages (differences among single post, homepage, archives, and other pages.)
-NEW         Shortcodes for displaying Links page and WP-EasyArchives are supported.
-NEW         Valid HTML 5 and CSS 3.
+## version 1.1.7
 
-1.1.5
+- NEW         Post formats supported basicallly.
+- NEW         More complete HTML 5 features.
 
-FIXED       Some IE6/IE7 compatibility issues
+## version 1.1.6
 
-1.1.4 (live)
+- NEW         Multi sidebar position supported more types of pages (differences among single post, homepage, archives, and other pages.)
+- NEW         Shortcodes for displaying Links page and WP-EasyArchives are supported.
+- NEW         Valid HTML 5 and CSS 3.
 
-NEW         Homepage menu item visibility toggling supported.
-FIXED       [functions.php] nest_options_validate(): checkbox type option value was updated incorrectly.
-FIXED       Custom text style does not appear correctly. (like font-weight, font-style, etc.)
+## version 1.1.5
 
-1.1.3 (live)
+- FIXED       Some IE6/IE7 compatibility issues
 
-FIXED       [functions.php] Scripts loaded using 'wp_enqueue_scripts' action (up to WP 3.3)
-FIXED       Page Links style
+## version 1.1.4 (live)
 
-1.1.2 (live)
+- NEW         Homepage menu item visibility toggling supported.
+- FIXED       [functions.php] nest_options_validate(): checkbox type option value was updated incorrectly.
+- FIXED       Custom text style does not appear correctly. (like font-weight, font-style, etc.)
 
-FIXED       RSS Link on header was wrong whether filled RSS Feed URL option or not.
-FIXED       [index.php] [template-*.php] _e() parameter 2: replaced 'nest ' to 'nest'
+## version 1.1.3 (live)
 
-1.1.1
+- FIXED       [functions.php] Scripts loaded using 'wp_enqueue_scripts' action (up to WP 3.3)
+- FIXED       Page Links style
 
-FIXED       [functions.php] nest_theme_setup(): if( ! is_admin() ) before wp_enqueue_script()
-FIXED       Search keyword cannot be displayed in search results page.
-NEW         Arrow marks of parent menu items containing sub-menu
-NEW         Cursor tips on comment form smiles images
+## version 1.1.2 (live)
 
-1.1.0
+- FIXED       RSS Link on header was wrong whether filled RSS Feed URL option or not.
+- FIXED       [index.php] [template-*.php] _e() parameter 2: replaced 'nest ' to 'nest'
 
-NEW         Selective effect of multi-level navigation menu
-NEW         Modifiable website info string ( replaces the default copyright string )
-FIXED       Random Posts Widget was not visible in front page. (after checked the option)
+## version 1.1.1
 
-1.0.8 (live)
+- FIXED       [functions.php] nest_theme_setup(): if( ! is_admin() ) before wp_enqueue_script()
+- FIXED       Search keyword cannot be displayed in search results page.
+- NEW         Arrow marks of parent menu items containing sub-menu
+- NEW         Cursor tips on comment form smiles images
 
-FIXED       Clearing Floats are cleaning improperly.
+## version 1.1.0
 
-1.0.7
+- NEW         Selective effect of multi-level navigation menu
+- NEW         Modifiable website info string ( replaces the default copyright string )
+- FIXED       Random Posts Widget was not visible in front page. (after checked the option)
 
-FIXED       Most of IE6 compatibility issues
-UNDO        since 1.0.6: Remove jump link "#more-XXX" in the post "Read More" link url
-UNDO        since 1.0.6: Supported the limit of post tags maximum count displayed in archives pages
+## version 1.0.8 (live)
 
-1.0.6
+- FIXED       Clearing Floats are cleaning improperly.
 
-FIXED       Comments were in dislocation when the avatars were disabled
-FIXED       Full-width page template cannot display post content anyway
-NEW         Remove jump link "#more-XXX" in the post "Read More" link url
-NEW         Supported the limit of post tags maximum count displayed in archives pages
+## version 1.0.7
 
-1.0.5 (live)
+- FIXED       Most of IE6 compatibility issues
+- UNDO        since 1.0.6: Remove jump link "#more-XXX" in the post "Read More" link url
+- UNDO        since 1.0.6: Supported the limit of post tags maximum count displayed in archives pages
 
-NEW         Supported right to left language showing
-NEW         Supported toggling posts navigation links in a single post
-NEW         Supported toggling post meta-information in pages
-NEW         Supported full-width page template
-FIXED       Author name was displayed incorrectly in author archives page
-FIXED       [functions.php] nest_options_validate() : htmlspecialchars()
-FIXED       Page templates "links" and "wp-easyarchives" wide column doesn't work as expected
+## version 1.0.6
 
-1.0.4 (live)
+- FIXED       Comments were in dislocation when the avatars were disabled
+- FIXED       Full-width page template cannot display post content anyway
+- NEW         Remove jump link "#more-XXX" in the post "Read More" link url
+- NEW         Supported the limit of post tags maximum count displayed in archives pages
 
+## version 1.0.5 (live)
+
+- NEW         Supported right to left language showing
+- NEW         Supported toggling posts navigation links in a single post
+- NEW         Supported toggling post meta-information in pages
+- NEW         Supported full-width page template
+- FIXED       Author name was displayed incorrectly in author archives page
+- FIXED       [functions.php] nest_options_validate() : htmlspecialchars()
+- FIXED       Page templates "links" and "wp-easyarchives" wide column doesn't work as expected
+
+## version 1.0.4 (live)
+
+- NEW         Born
